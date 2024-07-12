@@ -1,0 +1,433 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  --font-family: 'Helvetica', sans-serif;
+  --primary-1: #2980b9;
+  --primary-2: #3498db;
+  --danger-1: #e74c3c;
+  --danger-2: #d35400;
+  --success-1: #27ae60;
+  --success-2: #2ecc71;
+  --text-color: #636e72;
+  --text-primary-color: #fff;
+  --gray-1: #b2bec3;
+  --gray-2: #f3f3f3;
+  --gray-3: #34495e;
+  --font-gray: #707070;
+  --border: 1px solid #5c5c5c;
+  --border-2: 1px solid #e9e9e9 ;
+  --border-radius: 4px;
+  --btn-primary: #f39c12;
+  --color-1: #0a5da6;
+  --color-2: #edb925;
+}
+
+//FONT
+
+.font-1-bleu{
+  font-family:Helvetica, sans-serif;
+  color: #0a5da6;
+}
+
+.font-y-bold{
+  font-family:Helvetica, sans-serif;
+  color: #edb925;
+  font-weight:bold;
+}
+
+.font-b-light{
+  font-family:Helvetica, sans-serif;
+  color: #0a5da6;
+  font-weight:small;
+}
+
+.font-helvetica {
+  font-family: 'Helvetica', sans-serif; /* Assurez-vous que la police Helvetica est chargée */
+}
+
+.font{
+  font-family: helvetica;
+  color: #fff;
+}
+
+.font-btn{
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  color: #0a5da6;
+}
+
+.font-title{
+  font-family: Helvetica, sans-serif;
+  color: #3b3b3b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.font-med{
+  font-family:  Helvetica, sans-serif;
+  font-size: medium;
+  color: #3b3b3b;
+}
+
+.font-small{
+  font-family:  Helvetica, sans-serif;
+  font-size: small;
+  color: #707070;
+}
+
+.font-title-blue{
+  font-family: Helvetica, sans-serif;
+  color: #0a5da6;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.font-title-2{
+  font-family:Helvetica, sans-serif;
+  font-size:large;
+  font-weight:bold;
+  color: #3b3b3b;
+}
+
+.font-title-3{
+  font-family:Helvetica, sans-serif;
+  font-size:large;
+  font-weight: 600;
+  color: #3b3b3b;
+}
+
+.font-content{
+  font-family:Helvetica, sans-serif;
+  font-size: 16px;
+  color: #707070;
+}
+
+.font-lighter{
+  font-family: helvetica;
+  
+}
+
+.font-normal{
+  font-family: helvetica;
+  font-weight: normal;
+}
+ 
+.font-light{
+  font-family: helvetica;
+  font-weight: light;
+}
+
+.font-bold{
+  font-family: helvetica;
+  font-weight: bold;
+  // color: #3b3b3b;
+  color: #949494;
+}
+
+.font-bolder{
+  font-family: helvetica;
+  font-weight: bolder; 
+}
+
+.font-500{
+  font-family: helvetica;
+  font-weight: 500;
+}
+
+.font-200{
+  font-family: helvetica;
+  font-weight: 200;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--gray-2);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flew-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.alignt-content-center{
+  align-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+//padding
+.p-10 {
+  padding: 10px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+//margin
+.myy-5{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.m-10 {
+  margin: 10px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-50{
+  margin-left: 50px;
+}
+
+// Buttons
+
+.btn-blue {
+  border: 0;
+  background-color:  #0a5da6;
+  font-family: Helvetica, sans-serif;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-blue:hover {
+  background-color: #074377;
+}
+
+.btn-1-outline {
+  
+  border:solid 1px #0a5da6;
+  background-color: transparent;
+  color: #0a5da6;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  
+}
+
+.btn-1-outline:hover{
+  color: white;
+  background-color: #0a5da6;
+}
+
+.btn-1-outline:active{
+  color: white;
+  background-color: #074377;
+}
+
+.btn-2 {
+  padding: 2px 20px;
+  border: 0;
+  background-color:  #edb925;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: 500;
+}
+
+.btn-primary {
+  color: var(--text-primary-color);
+  background-color: #ffb142;
+  &:hover {
+    background-color: #ff793f;
+  }
+}
+
+.btn-danger {
+  background-color: red;
+  &:hover {
+    background-color: #e74c3c;
+  }
+}
+
+.btn-none{
+  border: none;
+  background:none;
+  padding: 5px;
+  color: #3b3b3b;
+  width: 100%;
+}
+
+.btn-none:hover{
+  background-color: #074377;
+  color: white;
+  border-radius: 3px;
+}
+
+.i-w {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.c-w {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.w-s {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.flex-fill {
+  flex: auto;
+}
+
+.border-left{
+  border-left: var(--border);
+}
+
+.border-right{
+  border-right: var(--border);
+}
+
+.border-bottom{
+  border-bottom: var(--border);
+}
+
+.border-left-2{
+  
+  border-left: solid 1px white;
+}
